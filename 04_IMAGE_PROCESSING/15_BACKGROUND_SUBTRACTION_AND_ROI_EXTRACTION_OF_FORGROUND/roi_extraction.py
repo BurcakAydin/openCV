@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 cap = cv.VideoCapture(
-     '/Users/burcakaydin/PycharmProjects/openCV/04_IMAGE_PROCESSING/15_BACKGROUND_SUBTRACTION_AND_ROI_EXTRACTION_OF_FORGROUND/vtest.mp4')
+     '/openCV/04_IMAGE_PROCESSING/15_BACKGROUND_SUBTRACTION_AND_ROI_EXTRACTION_OF_FORGROUND/vtest.mp4')
 
 fgbg = cv.createBackgroundSubtractorMOG2(history=50, varThreshold=50)
 

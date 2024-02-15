@@ -3,7 +3,7 @@ import numpy as np
 import cv2 as cv
 
 
-src = cv.imread("/Users/burcakaydin/PycharmProjects/openCV/04_IMAGE_PROCESSING/18_GRABCUT_BACKGROUND_CHANGE/m1.png")
+src = cv.imread("/openCV/04_IMAGE_PROCESSING/18_GRABCUT_BACKGROUND_CHANGE/m1.png")
 src = cv.resize(src, (0, 0), fx=0.5, fy=0.5)
 r = cv.selectROI('input', src, False)
 
@@ -21,7 +21,7 @@ cv.grabCut (src, mask, rect, bgdmodel, fgdmodel, 11, mode=cv.GC_INIT_WITH_RECT)
 
 mask2 = np.where( (mask == 1) + (mask == 3), 255, 0) .astype('uint8')
 
-background = cv.imread("/Users/burcakaydin/PycharmProjects/openCV/04_IMAGE_PROCESSING/18_GRABCUT_BACKGROUND_CHANGE/flower.png")
+background = cv.imread("/openCV/04_IMAGE_PROCESSING/18_GRABCUT_BACKGROUND_CHANGE/flower.png")
 
 h, w, ch = src.shape
 

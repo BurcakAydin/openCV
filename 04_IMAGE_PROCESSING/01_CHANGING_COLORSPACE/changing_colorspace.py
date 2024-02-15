@@ -4,7 +4,7 @@ import cv2 as cv
 
 # HSV
 
-img = cv.imread('/Users/burcakaydin/PycharmProjects/openCV/04_IMAGE_PROCESSING/01_CHANGING_COLORSPACE/opencv.png')
+img = cv.imread('/openCV/04_IMAGE_PROCESSING/01_CHANGING_COLORSPACE/opencv.png')
 cv.namedWindow("rgb", cv.WINDOW_AUTOSIZE)
 cv.imshow("rgb", img)
 cv.waitKey(1)

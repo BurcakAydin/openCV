@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-path = "/Users/burcakaydin/PycharmProjects/openCV/06_OBJECT_DETECTION/01_TEMPLATE_MATCHING/"
+path = "/openCV/06_OBJECT_DETECTION/01_TEMPLATE_MATCHING/"
 
 def template_demo():
     src = cv.imread(path + "test.png")

@@ -19,7 +19,7 @@ def custom_hist(gray):
     plt.show()
 
 
-src = cv.imread('/Users/burcakaydin/PycharmProjects/openCV/04_IMAGE_PROCESSING/04_HISTOGRAM/lab.png')
+src = cv.imread('/openCV/04_IMAGE_PROCESSING/04_HISTOGRAM/lab.png')
 gray = cv.cvtColor(src, cv.COLOR_BGR2GRAY)
 cv.imshow("input", gray)
 cv.waitKey(1)

@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-src = cv.imread('/Users/burcakaydin/PycharmProjects/openCV/05_FEATURE_DETECTION_RECOGNITION/01_IMAGE_NOISE/opencv.png')
+src = cv.imread('/openCV/05_FEATURE_DETECTION_RECOGNITION/01_IMAGE_NOISE/opencv.png')
 def add_salt_pepper_noise(image):
     h, w = image.shape[:2]
     nums = 10000

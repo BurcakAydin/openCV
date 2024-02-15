@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-src = cv.imread('/Users/burcakaydin/PycharmProjects/openCV/04_IMAGE_PROCESSING/05_GAUSSIAN_BILATERAL_BLUR/test.png')
+src = cv.imread('openCV/04_IMAGE_PROCESSING/05_GAUSSIAN_BILATERAL_BLUR/test.png')
 cv.namedWindow("input", cv.WINDOW_AUTOSIZE)
 cv.imshow("input", src)
 cv.waitKey(1)

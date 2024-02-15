@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-src = cv.imread('/Users/burcakaydin/PycharmProjects/openCV/04_IMAGE_PROCESSING/08_CANNY_EDGE_DETECTION/keanu.png')
+src = cv.imread('/openCV/04_IMAGE_PROCESSING/08_CANNY_EDGE_DETECTION/keanu.png')
 
 cv.imshow('src', src)
 cv.waitKey(1)

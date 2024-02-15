@@ -7,7 +7,7 @@ def canny_demo(image):
     cv.imshow('canny_output', canny_output)
     return canny_output
 
-src = cv.imread('/Users/burcakaydin/PycharmProjects/openCV/04_IMAGE_PROCESSING/11_HOFFMAN_LINE_DETECTION/sudoku.png')
+src = cv.imread('/openCV/04_IMAGE_PROCESSING/11_HOFFMAN_LINE_DETECTION/sudoku.png')
 cv.namedWindow('input', cv.WINDOW_AUTOSIZE)
 cv.imshow('src', src)
 cv.waitKey(1)

@@ -2,7 +2,7 @@ import numpy as np
 import cv2 as cv
 
 src = cv.imread(
-    '/Users/burcakaydin/PycharmProjects/openCV/05_FEATURE_DETECTION_RECOGNITION/03_HARRIS_CORNER_DETECTION/chessboard.png')
+    '/openCV/05_FEATURE_DETECTION_RECOGNITION/03_HARRIS_CORNER_DETECTION/chessboard.png')
 
 
 def harris(image):

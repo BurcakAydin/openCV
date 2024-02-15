@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-src = cv.imread('/Users/burcakaydin/PycharmProjects/openCV/05_FEATURE_DETECTION_RECOGNITION/06_HOG_PEDESTRIAN_DETECTION/pedestrain.png')
+src = cv.imread('/openCV/05_FEATURE_DETECTION_RECOGNITION/06_HOG_PEDESTRIAN_DETECTION/pedestrain.png')
 
 
 hog = cv.HOGDescriptor()  # svm method

@@ -3,7 +3,7 @@ import cv2 as cv
 
 # Shifting
 
-img = cv.imread('/Users/burcakaydin/PycharmProjects/openCV/04_IMAGE_PROCESSING/02_GEOMETRIC_SHIFTING/opencv.png')
+img = cv.imread('/openCV/04_IMAGE_PROCESSING/02_GEOMETRIC_SHIFTING/opencv.png')
 
 rows = img.shape[0]  # satırlara ait bilgi
 cols = img.shape[1]  # sütunlara ait bilgi

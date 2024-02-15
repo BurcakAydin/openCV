@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-path = "/Users/burcakaydin/PycharmProjects/openCV/02_PERFORMANCE_MEASUREMENTS/02_IMAGE_PIXEL_NORMALISATION/"
+path = "/openCV/02_PERFORMANCE_MEASUREMENTS/02_IMAGE_PIXEL_NORMALISATION/"
 
 src = cv.imread(path + "opencv.png")
 print(src.shape)  # (338, 300, 3)

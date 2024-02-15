@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-src = cv.imread('/Users/burcakaydin/PycharmProjects/openCV/04_IMAGE_PROCESSING/07_SOBEL_OPERATOR/opencv.png')
+src = cv.imread('/openCV/04_IMAGE_PROCESSING/07_SOBEL_OPERATOR/opencv.png')
 
 h, w = src.shape[:2]
 

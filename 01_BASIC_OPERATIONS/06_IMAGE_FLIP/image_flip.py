@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-path = "/Users/burcakaydin/PycharmProjects/openCV/01_BASIC_OPERATIONS/06_IMAGE_FLIP/"
+path = "/openCV/01_BASIC_OPERATIONS/06_IMAGE_FLIP/"
 img = cv.imread(path + "opencv.png")
 
 # X Flip

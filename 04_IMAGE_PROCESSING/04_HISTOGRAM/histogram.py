@@ -30,7 +30,7 @@ def image_hist (image):
         plt. show()
 
 
-src = cv.imread('/Users/burcakaydin/PycharmProjects/openCV/04_IMAGE_PROCESSING/04_HISTOGRAM/lab.png')
+src = cv.imread('/openCV/04_IMAGE_PROCESSING/04_HISTOGRAM/lab.png')
 cv.namedWindow("input", cv.WINDOW_AUTOSIZE)
 cv.imshow("input", src)
 cv.waitKey(1)

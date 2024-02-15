@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-src = cv.imread('/Users/burcakaydin/PycharmProjects/openCV/04_IMAGE_PROCESSING/17_GRABCUT_IMAGE_SEGMENTATION/m1.png')
+src = cv.imread('/openCV/04_IMAGE_PROCESSING/17_GRABCUT_IMAGE_SEGMENTATION/m1.png')
 
 src = cv.resize(src, (0, 0), fx=0.5, fy=0.5)
 

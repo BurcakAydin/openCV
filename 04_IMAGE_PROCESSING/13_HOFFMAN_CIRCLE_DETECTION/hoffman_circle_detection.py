@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-src = cv.imread('/Users/burcakaydin/PycharmProjects/openCV/04_IMAGE_PROCESSING/13_HOFFMAN_CIRCLE_DETECTION/coins.png')
+src = cv.imread('/openCV/04_IMAGE_PROCESSING/13_HOFFMAN_CIRCLE_DETECTION/coins.png')
 if src is None:
     print("Error: Image not found")
     exit()

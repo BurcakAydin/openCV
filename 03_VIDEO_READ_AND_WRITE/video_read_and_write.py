@@ -1,14 +1,14 @@
 import numpy as np
 import cv2 as cv
 
-capture = cv.VideoCapture("/Users/burcakaydin/PycharmProjects/openCV/03_VIDEO_READ_AND_WRITE/ds_path.mp4")
+capture = cv.VideoCapture("/openCV/03_VIDEO_READ_AND_WRITE/ds_path.mp4")
 height = capture.get(cv.CAP_PROP_FRAME_HEIGHT)
 width = capture.get(cv.CAP_PROP_FRAME_WIDTH)
 count = capture.get(cv. CAP_PROP_FRAME_COUNT)
 fps = capture.get(cv. CAP_PROP_FPS)
 print(height, width, count, fps)
 
-put = cv.VideoWriter("/Users/burcakaydin/PycharmProjects/openCV/03_VIDEO_READ_AND_WRITE/ds_path_save.avi",
+put = cv.VideoWriter("/openCV/03_VIDEO_READ_AND_WRITE/ds_path_save.avi",
                      cv.VideoWriter_fourcc("D", "I", "V", "X"), 15,
                      (int(width), int(height)), True)  # (np.int(width), np.int(height)) yazınca hata veriyor
 

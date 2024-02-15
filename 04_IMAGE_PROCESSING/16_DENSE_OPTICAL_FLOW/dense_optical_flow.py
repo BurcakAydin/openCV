@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-cap = cv.VideoCapture('/Users/burcakaydin/PycharmProjects/openCV/04_IMAGE_PROCESSING/16_DENSE_OPTICAL_FLOW/vtest.mp4')
+cap = cv.VideoCapture('/openCV/04_IMAGE_PROCESSING/16_DENSE_OPTICAL_FLOW/vtest.mp4')
 ret, frame1 = cap.read()
 
 prvs = cv.cvtColor(frame1, cv.COLOR_BGR2GRAY)

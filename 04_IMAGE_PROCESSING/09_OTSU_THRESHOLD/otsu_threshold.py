@@ -16,7 +16,7 @@ def canny_demo(image):
     return canny_output
 
 
-src = cv.imread('/Users/burcakaydin/PycharmProjects/openCV/04_IMAGE_PROCESSING/09_OTSU_THRESHOLD/lena.png')
+src = cv.imread('/openCV/04_IMAGE_PROCESSING/09_OTSU_THRESHOLD/lena.png')
 cv.namedWindow('input', cv.WINDOW_AUTOSIZE)
 cv.imshow('src', src)
 cv.waitKey(1)

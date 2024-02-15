@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-src = cv.imread('/Users/burcakaydin/PycharmProjects/openCV/05_FEATURE_DETECTION_RECOGNITION/05_SUB_PIXEL_CORNER_DETECTION/blocks.png')
+src = cv.imread('/openCV/05_FEATURE_DETECTION_RECOGNITION/05_SUB_PIXEL_CORNER_DETECTION/blocks.png')
 
 def process(image):
     gray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)

@@ -17,7 +17,7 @@ def canny_demo(image):
     return canny_output
 
 
-src = cv.imread('/Users/burcakaydin/PycharmProjects/openCV/04_IMAGE_PROCESSING/10_IMAGE_CONTOURS/yuan.png')
+src = cv.imread('/openCV/04_IMAGE_PROCESSING/10_IMAGE_CONTOURS/yuan.png')
 cv.namedWindow('input', cv.WINDOW_AUTOSIZE)
 cv.imshow('src', src)
 cv.waitKey(1)

@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 import cv2 as cv
 
 
-src1 = cv.imread('/Users/burcakaydin/PycharmProjects/openCV/04_IMAGE_PROCESSING/04_HISTOGRAM/bat.png')
-src2 = cv.imread('/Users/burcakaydin/PycharmProjects/openCV/04_IMAGE_PROCESSING/04_HISTOGRAM/lab.png')
-src3 = cv.imread('/Users/burcakaydin/PycharmProjects/openCV/04_IMAGE_PROCESSING/04_HISTOGRAM/opencv.png')
+src1 = cv.imread('/openCV/04_IMAGE_PROCESSING/04_HISTOGRAM/bat.png')
+src2 = cv.imread('/openCV/04_IMAGE_PROCESSING/04_HISTOGRAM/lab.png')
+src3 = cv.imread('/openCV/04_IMAGE_PROCESSING/04_HISTOGRAM/opencv.png')
 
 # cvtColor
 

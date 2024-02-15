@@ -1,6 +1,6 @@
 import cv2 as cv
 
-cap = cv.VideoCapture('/Users/burcakaydin/PycharmProjects/openCV/04_IMAGE_PROCESSING/14_VIDEO_ANALYSIS_BACKGROUND_FOREGROUND_EXTRACTION/ds_path.mp4')
+cap = cv.VideoCapture('/openCV/04_IMAGE_PROCESSING/14_VIDEO_ANALYSIS_BACKGROUND_FOREGROUND_EXTRACTION/ds_path.mp4')
 
 fgbg = cv.createBackgroundSubtractorMOG2(history=50, varThreshold=50)
 
@@ -32,7 +32,7 @@ it means the frame has not been successfully read, and you should break out of t
 import cv2 as cv
 
 cap = cv.VideoCapture(
-    '/Users/burcakaydin/PycharmProjects/openCV/04_IMAGE_PROCESSING/14_VIDEO_ANALYSIS_BACKGROUND_FOREGROUND_EXTRACTION/ds_path.mp4')
+    '/openCV/04_IMAGE_PROCESSING/14_VIDEO_ANALYSIS_BACKGROUND_FOREGROUND_EXTRACTION/ds_path.mp4')
 
 fgbg = cv.createBackgroundSubtractorMOG2(history=50, varThreshold=50)
 
